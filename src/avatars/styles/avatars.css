@@ -1,0 +1,42 @@
+/* 여기에 스타일을 구현해 주세요 */
+body {
+  background-color: #ffffff;
+  padding: 100px;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.avatars {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+
+  img {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+  }
+}
+
+.status {
+  position: absolute;
+  border-radius: 50%;
+  border: solid #ffffff 2px;
+  width: 16px;
+  height: 16px;
+  bottom: 0;
+  right: 0;
+}
+
+.status.login {
+  background-color: #4cfe88;
+}
+.status.logout {
+  background-color: #dbdbdb;
+}
