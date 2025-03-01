@@ -1,6 +1,6 @@
-@import "/src/common/best-reset.css";
-@import "/src/common/a11y.css";
-@import "/src/common/base.css";
+@import "src/common/best-reset.css";
+@import "src/common/a11y.css";
+@import "src/common/base.css";
 
 * {
   font-size: 1rem;
